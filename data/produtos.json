@@ -1,0 +1,314 @@
+{
+  "mensagem": "Catálogo carregado com sucesso!",
+  "total": 30, 
+  "produtos": [
+    { 
+      "id": 1,
+      "nome": "Blusa Preta",
+      "categoria": "Roupas",
+      "preco": 80.00,
+      "descricao": "Blusa Preta com gola alta aberta. Tamanho 36",
+      "imagem": "assets/imagens/BlusaPreta.jpg",
+      "estoque": 15
+    },
+
+    {
+      "id": 2,
+      "nome": "Blusa Verde",
+      "categoria": "Roupas",
+      "preco": 86.00,
+      "descricao": "Blusa verde de gola alta de manga longa. Tamanho 36",
+      "imagem": "assets/imagens/BlusaVerde.jpg",
+      "estoque": 30
+    },
+
+    {
+      "id": 3,
+      "nome": "Calça Jeans",
+      "categoria": "Roupas",
+      "preco": 150.00,
+      "descricao": "Calça jeans tamanho. 34 Feminina",
+      "imagem": "assets/imagens/CalcaJeans.jpg",
+      "estoque": 30
+    },
+
+    {
+      "id": 4,
+      "nome": "Calça Branca",
+      "categoria": "Roupas",
+      "preco": 200.00,
+      "descricao": "Calça branca cintura alta, com boca de sino.tamanho 34",
+      "imagem": "assets/imagens/CalcaBranca.jpg",
+      "estoque": 39
+    },
+
+    {
+      "id": 5,
+      "nome": "Vestido dourado",
+      "categoria": "Roupas",
+      "preco": 400.00,
+      "descricao": "Vestido feito a mão. Tamanho 36",
+      "imagem": "assets/imagens/Vestido.jpg",
+      "estoque": 3
+    },
+
+    {
+      "id": 6,
+      "nome": "Vestido Verde",
+      "categoria": "Roupas",
+      "preco": 289.90,
+      "descricao": "Vestido verde com flores. tamanho 36",
+      "imagem": "assets/imagens/VestidoVerde.jpg",
+      "estoque": 6
+    },
+
+    {
+      "id": 7,
+      "nome": "Short Vermelho",
+      "categoria": "Roupas",
+      "preco": 59.50,
+      "descricao": "Short vermelho da Adidas para correr tamanho 36",
+      "imagem": "assets/imagens/ShortVermelho.jpg",
+      "estoque": 22
+    },
+
+    {
+      "id": 8,
+      "nome": "Short Jeans",
+      "categoria": "Roupas",
+      "preco": 59.50,
+      "descricao": "Short jeans casual, tamanho 34.",
+      "imagem": "assets/imagens/ShortJeans.jpg",
+      "estoque": 8
+    },
+
+    {
+      "id": 9,
+      "nome": "Vestido Vermelha",
+      "categoria": "Roupas",
+      "preco": 120.00,
+      "descricao": "Vestido vermelho casual, tamanho 34.",
+      "imagem": "assets/imagens/VestidoVermelho.jpg",
+      "estoque": 8
+    },
+
+    {
+      "id": 10,
+      "nome": "Saia",
+      "categoria": "Roupas",
+      "preco": 70.00,
+      "descricao": "Saia Jeans com quatro botões e bolsos. Tamanho 34",
+      "imagem": "assets/imagens/Saia.jpg",
+      "estoque": 12
+    },
+
+    {
+      "id": 11,
+      "nome": "Percata",
+      "categoria": "Calcados",
+      "preco": 105.90,
+      "descricao": "Percata de couro sintético, com uma parte colorida, tamanho 36.",
+      "imagem": "assets/imagens/percata.jpg",
+      "estoque": 90
+    },
+
+    {
+      "id": 12,
+      "nome": "Percata Masculina",
+      "categoria": "Calcados",
+      "preco": 120.00,
+      "descricao": "Percata Masculina marom de couro, tamanho 45.",
+      "imagem": "assets/imagens/PercataMasculina.jpg",
+      "estoque": 4
+    },
+    
+    { "id": 13,
+    "nome": "Salto Roxo",
+    "categoria":"Calcados",
+    "preco":140.99,
+    "descricao":"Salto Scarpin , tamanho 35 na cor roxa",
+    "imagem":"assets/imagens/SaltoRoxo.jpg",
+    "estoque":38
+
+    },
+      
+    {
+      "id": 14,
+      "nome": "Sapato colorido",
+      "categoria": "Calcados",
+      "preco": 190.00,
+      "descricao": "Sapato colorido no tamanho 34 .",
+      "imagem": "assets/imagens/SapatoColorido.jpg",
+      "estoque": 50
+      
+    },
+
+    {
+      "id": 15,
+      "nome": "Salto branco",
+      "categoria": "Calcados",
+      "preco": 150.00,
+      "descricao": "Salto scarpin branco tamanho 34, na cor branca.",
+      "imagem": "assets/imagens/SaltoScapin.jpg",
+      "estoque": 18
+      
+    }, 
+
+    {
+      "id": 16,
+      "nome": "Sandalia",
+      "categoria": "Calcados",
+      "preco": 100.00,
+      "descricao": "Sandália marom, tamanho 34.",
+      "imagem": "assets/imagens/Sandalia.jpg",
+      "estoque": 28
+      
+    },
+
+    {
+      "id": 17,
+      "nome": "Salto Preto",
+      "categoria": "Calcados",
+      "preco": 110.00,
+      "descricao": "Salto Scapin Preto, tamanho 36.",
+      "imagem": "assets/imagens/SaltoPreto.jpg",
+      "estoque": 15
+      
+    },
+
+    {
+      "id": 18,
+      "nome": "Rasteirinha",
+      "categoria": "Calcados",
+      "preco": 55.00,
+      "descricao": "Rasteirinha com perolas, tamanho 34",
+      "imagem": "assets/imagens/Rasteirinha.jpg",
+      "estoque": 20
+      
+    },
+
+    {
+      "id": 19,
+      "nome": "Salto Vermelho",
+      "categoria": "Calcados",
+      "preco": 120.00,
+      "descricao": "Salto scarpin, vermelho, tamanho 35.",
+      "imagem": "assets/imagens/SaltoVermelho.jpg",
+      "estoque": 20
+      
+    },
+
+    {
+      "id": 20,
+      "nome": "Sapato",
+      "categoria": "Calcados",
+      "preco": 150.00,
+      "descricao": "Sapato/tênis colorido, Adidas, tamanho 35.",
+      "imagem": "assets/imagens/Sapato.jpg",
+      "estoque": 10
+      
+    }, 
+
+    {
+      "id": 21,
+      "nome":"Anel",
+      "categoria":"Acessórios",
+       "preco":90.00,
+       "descricao": "Anel tamanho 17",
+       "imagem":"assets/imagens/Anel.jpg",
+       "estoque": 4
+    },
+
+    {
+      "id":22,
+      "nome": "Boné Branco",
+      "categoria":"Acessórios",
+      "preco":80.00,
+      "descricao": "Boné branco unissex",
+      "imagem":"assets/imagens/Bone.jpg",
+      "estoque":6
+    },
+
+    {
+      "id":23,
+      "nome": "Bone vermelho",
+      "categoria":"Acessórios",
+      "preco": 80.00,
+      "descricao":"Bone vermelho com estampa na frente",
+      "imagem":"assets/imagens/BoneVermelho.jpg",
+      "estoque":19
+    },
+
+    { "id":24,
+    "nome":" Brincos",
+    "categoria":"Acessórios",
+    "preco": 55.99,
+    "descricao":"Brinco argola colorida",
+    "imagem":"assets/imagens/Brinco.jpg",
+    "estoque":3
+    },
+
+    {
+      "id":25,
+      "nome":"Carteira",
+      "categoria":"Acessórios",
+      "preco":50.00,
+      "descricao":"Carteira de couro sintético",
+      "imagem":"assets/imagens/carteira.jpg",
+      "estoque":15
+
+    },
+
+    {
+      "id":26,
+      "nome":"Cinto",
+      "categoria":"Acessórios",
+      "preco":45.00,
+      "descricao":"Cinto feminino na cor marom",
+      "imagem":"assets/imagens/Cinto.jpg",
+      "estoque":60
+    },
+    {
+      "id":27,
+      "nome":"Colar",
+      "categoria":"Acessórios",
+      "preco":100.00,
+      "descricao":"Colar duplo delicado",
+      "imagem":"assets/imagens/Colar.jpg",
+      "estoque":5
+    },
+
+    {
+     "id":28,
+     "nome":"Óculos",
+     "categoria":"Acessórios",
+     "preco":100.00,
+     "descricao":"Óculos redondo preto Unissex",
+     "imagem":"assets/imagens/oculos.jpg",
+     "estoque":10
+    },
+
+    {
+      "id":29,
+      "nome":"Pulseira prata",
+      "categoria":"Acessórios",
+      "preco":55.00,
+      "descricao":"Pulseira prata de coração",
+      "imagem":"assets/imagens/Pulseira.jpg",
+      "estoque":9
+    },
+
+    {
+      "id":30,
+      "nome":"Relogio de parede",
+      "categoria":"Acessórios",
+      "preco":55.00,
+      "descricao":"Relógio de parede",
+      "imagem":"assets/imagens/Relogio.jpg",
+      "estoque":50
+    }
+  
+  ]
+}
+
+

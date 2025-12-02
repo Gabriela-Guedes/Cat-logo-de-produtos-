@@ -1,0 +1,291 @@
+/* ======================================== */
+/* RESET BÁSICO E ESTILO GLOBAL             */
+/* ======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                 /* Facilita cálculos de largura/altura */
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #e6c7df;                    /* Fundo rosa claro elegante */
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* ======================================== */
+/* CABEÇALHO (HEADER)                       */
+/* ======================================== */
+.header {
+    background: #cc5791;                    /* Rosa médio vibrante */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+/* ======================================== */
+/* CONTAINER PRINCIPAL                      */
+/* ======================================== */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Botão centralizado para carregar os produtos (primeira ação do usuário) */
+.centro {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+/* ======================================== */
+/* BOTÃO PRINCIPAL (Carregar Produtos)      */
+/* ======================================== */
+.btn-principal {
+    background: #d63384;                    /* Rosa forte */
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(214, 51, 132, 0.3);
+}
+
+.btn-principal:hover {
+    background: #813359;
+    transform: scale(1.05);
+}
+
+/* ======================================== */
+/* ÁREA DE FILTROS E BUSCA                  */
+/* ======================================== */
+.filtros-container {
+    margin: 2rem 0;
+    background: rgb(180, 120, 153);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.busca-wrapper input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.busca-wrapper input:focus {
+    border-color: #d63384;
+}
+
+/* Botões de categoria */
+.categorias {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+}
+
+.btn-categoria {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #d63384;
+    background: white;
+    color: #d63384;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.btn-categoria.ativo,
+.btn-categoria:hover {
+    background: #d63384;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Ordenação + Limpar filtros */
+.ordenacao-limpar {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#select-ordenacao {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+}
+
+.btn-limpar {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-limpar:hover {
+    background: #5a6268;
+}
+
+.contador {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+/* ======================================== */
+/* GRID DE PRODUTOS (RESPONSIVO)            */
+/* ======================================== */
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.8rem;
+    margin-top: 2rem;
+}
+
+/* Card individual do produto */
+.produto {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.produto img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;                      /* Imagem preenche sem distorcer */
+}
+
+.produto h4 {
+    padding: 1rem 1rem 0.5rem;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.categoria-card {
+    padding: 0 1rem;
+    color: #777;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.preco-card {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d63384;
+}
+
+.produto button {
+    margin-top: auto;                       /* Empurra o botão para o final do card */
+    width: 100%;
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.produto button:hover {
+    background: #b02970;
+}
+
+/* ======================================== */
+/* MODAL DE DETALHES                        */
+/* ======================================== */
+.modal {
+    display: none;                          /* Controlado via JavaScript */
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.modal-conteudo {
+    background: white;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.modal-conteudo img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 1rem 0;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: #d63384;
+}
+
+/* ======================================== */
+/* RODAPÉ (FOOTER)                          */
+/* ======================================== */
+footer {
+    text-align: center;
+    background: #cc5791;
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+}
+

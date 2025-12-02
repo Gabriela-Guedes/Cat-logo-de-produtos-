@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moda Fashion</title>
+    <meta name="description" content="Catálogo completo de roupas, calçados e acessórios femininos" />
+
+    <!--Link para estilizar o CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- jQuery CDN (obrigatório) -->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!--Cabeçalho da página e class usada para estilizar o cabeçalho no CSS-->
+    <header class="header">
+        <h1>Moda Fashion</h1>
+        <p>Vista-se de confiança, expresse sua essência!!</p>
+        <p class="subtitle">Roupas • Calçados • Acessórios</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Botão para carregar produtos da página -->
+        <div class="centro">
+
+            <!--ID usado para identificar o botão no JS e executar-->
+            <button id="btn-carregar" class="btn-principal">Carregar Produtos</button>
+        </div>
+
+        
+
+        <!--Área de busca, campo onde o usuário digita o nome do produto e mostra na tela -->
+            <div class="busca-wrapper">
+                <input type="text" id="input-busca" placeholder="O que você procura? Ex: blusa, salto..." />
+            </div>
+           <!--Container dos botões de categorias usados para filtrar os produtos-->
+            <div class="categorias" id="filtro-categoria">
+            </div>
+        <!--Select para selecionar por nome or preço 
+        button para limpar todos os filtros aplicados -->
+            <div class="ordenacao-limpar">
+                <select id="select-ordenacao">
+                    <option value="">Ordenar por...</option>
+                    <option value="nome_asc">Nome (A-Z)</option>
+                    <option value="nome_desc">Nome (Z-A)</option>
+                    <option value="preco_asc">Menor preço</option>
+                    <option value="preco_desc">Maior preço</option>
+                </select>
+                <button id="limpar-filtros" class="btn-limpar">Limpar filtros</button>
+            </div>
+
+            <p id="contador-produtos" class="contador"></p>
+        </section>
+
+        <!-- Lista de produtos -->
+        <section id="lista-produtos" class="grid-produtos">
+            <!-- Cards inseridos aqui pelo JavaScript -->
+        </section>
+
+    </main>
+
+    <!-- Modal de detalhes -->
+    <div id="modal-detalhes" class="modal">
+        <div class="modal-conteudo">
+            <div id="modal-conteudo"></div>
+        </div>
+    </div>
+     
+    <!--Rodapé do site, informações de direitos autorais-->
+<br>
+    <footer>
+        <p>&copy;2025 Moda Fashion 🎁 todos os direitos reservados </p>
+    </footer>  <br> 
+    <!--importa o arquivo JS principal que controla toda a lógica de funcionalidade da página -->
+    <script src="js/main.js"></script>
+</body>
+</html>
