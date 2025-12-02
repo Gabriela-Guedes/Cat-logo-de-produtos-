@@ -28,18 +28,5 @@ Criei 100% o arquivo `data/produtos.json` com 30 produtos completos (id, nome, c
 1. Abra com Live Server (VS Code) ou
 2. Acesse a demo ao vivo acima (GitHub Pages)
 
-## Estrutura de pastas
-
-├── index.html
-├── css/
-│   ├── style.css
-│   └── responsive.css
-├── js/
-│   └── main.js
-├── data/
-│   └── produtos.json
-├── assets/
-│   └── imagens/   (30 fotos de produtos)
-└── README.md
 
 Este projeto foi desenvolvido por *Dafny Karolyne, Gabriela Guedes, Raissa Licar, Maria Luiza Lopes, Maria Maezia*, estudantes de Análise e Desenvolvimento de Sistemas na UNINASSAU.
